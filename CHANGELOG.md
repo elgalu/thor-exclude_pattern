@@ -1,3 +1,6 @@
+## In git
+* Add directory() config[:exclude_pattern] to prevent copying files that match certain regexp
+
 ## 0.17.0, release 2013-01-24
 * Add better support for tasks that accept arbitrary additional arguments (e.g. things like `bundle exec`)
 * Add #stop_on_unknown_option!

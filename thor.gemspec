@@ -1,7 +1,7 @@
 # coding: utf-8
 lib = File.expand_path('../lib/', __FILE__)
 $:.unshift lib unless $:.include?(lib)
-require 'thor/version'
+require 'thor/exclude_pattern/version'
 
 Gem::Specification.new do |spec|
   spec.add_development_dependency 'bundler', '~> 1.0'
@@ -15,10 +15,10 @@ Gem::Specification.new do |spec|
   spec.files += Dir.glob("spec/**/*")
   spec.homepage = 'http://whatisthor.com/'
   spec.licenses = ['MIT']
-  spec.name = 'thor'
+  spec.name = 'thor-exclude_pattern'
   spec.require_paths = ['lib']
   spec.required_rubygems_version = '>= 1.3.6'
   spec.summary = spec.description
   spec.test_files = Dir.glob("spec/**/*")
-  spec.version = Thor::VERSION
+  spec.version = Thor::ExcludePattern::VERSION
 end
