@@ -1,9 +1,11 @@
-[![Build Status](https://travis-ci.org/elgalu/thor-exclude_pattern.png?branch=exclude_pattern)](https://travis-ci.org/elgalu/thor-exclude_pattern/builds)
-
 Thor with exclude_pattern
 =========================
 
-This fork adds a new option :exclude_pattern => /regexp/ to the directory() method.
+This fork is no longer needed. Was [merged] and is available since thor >= 0.18
+
+This fork added a new option :exclude_pattern => /regexp/ to the directory() method.
+
+[merged]: https://github.com/wycats/thor/pull/313
 
 Directory method
 ----------------
